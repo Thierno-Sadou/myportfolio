@@ -242,8 +242,8 @@ color: var(--first-color);
 }
 
 .home__blob-img{
-    width: 170px;
-    transform: translateY(2px);
+    width: 190px;
+    transform: translateY(-35px);
 }
 
 .home__data{
@@ -253,6 +253,7 @@ color: var(--first-color);
 .home__title{
     font-size: var(--big-font-size);
 }
+
 .home__subtitle{
     font-size: var(--h3-font-size);
     color: var(--text-color);
@@ -471,7 +472,7 @@ width: 90%;
 }
 
 .skills__php{
-    width: 10%;
+    width: 60%;
 }
 
 .skills__english{
