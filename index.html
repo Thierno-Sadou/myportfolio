@@ -1029,14 +1029,18 @@
 </script>
 
 <script>
+    var speed = 30; // Valeur par défaut
+    if (window.innerWidth > 400) {
+      speed = 80; // Valeur pour une largeur d'écran inférieure à 370px
+    }
+    
     var typed = new Typed(".auto-input", {
-      strings : ["Thierno-Sadou", " an Engineering Student","looking for an apprenticeship", "studying at EFREI PARIS"],
-      typeSpeed: 80,
+      strings: ["Thierno-Sadou", "an Engineering Student", "looking for an apprenticeship", "studying at EFREI PARIS"],
+      typeSpeed: speed,
       backSpeed: 40,
       loop: true
     });
-
-</script>
+  </script>
 <script>
     console.log(window.outerWidth)
 
